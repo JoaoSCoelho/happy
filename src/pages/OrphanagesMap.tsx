@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom';
 import React from 'react';
 import { FiPlus } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+import { Map } from 'react-leaflet';
 
 import mapMarkerImg from '../images/map-marker.svg';
 
@@ -23,7 +24,9 @@ function OrphanagesMap() {
         </footer>
       </aside>
 
-      <div>oi</div>
+      <Map 
+        center={[-11.7294959, -40.278981]}
+      />
 
       <Link to="" className="create-orphanage">
         <FiPlus size={32} color="#FFF" />

@@ -1,5 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
+import React from 'react';
 
 import { FiArrowRight } from 'react-icons/fi';
 
@@ -23,7 +23,7 @@ function Landing() {
           <p>Visite orfanatos e mude o dia de muitas crianças.</p>
         </main>
 
-        <Link to="http://github.com/joaoscoelho" className="enter-app">
+        <Link to="/app" className="enter-app">
           <FiArrowRight size={30} color="rgba(0, 0, 0, 0.6)" />
         </Link>
       </div>
